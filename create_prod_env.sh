@@ -38,8 +38,8 @@ read -p "Enter email address for Let's Encrypt: " email_address
 # Write to .env file
 cat > .env <<EOF
 #Strapi Mode Command
-#COMMAND=npm run build && npm run start
-COMMAND=npm run develop
+#COMMAND=npm install && npm run build && npm run start
+COMMAND=npm install && npm run build && npm run develop
 
 #Docker
 APP_NAME=strapi-docker-starter
