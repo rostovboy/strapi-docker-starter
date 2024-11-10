@@ -2,7 +2,7 @@
 
 Clone repository, run create_env.sh script to create .env file
 
-In .env file choose 
+In .env file choose COMMAND for production or for development mode
 
 run 
 
@@ -12,7 +12,7 @@ docker compose up -d
 ```
 
 
-## 🚀 Strapi command
+## 🚀 Strapi commands
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
 

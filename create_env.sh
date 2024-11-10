@@ -35,7 +35,7 @@ fi
 cat > .env <<EOF
 #Strapi Mode Command
 #COMMAND=npm install && npm run build && npm run start
-COMMAND=npm install && npm run build && npm run develop
+COMMAND=npm install && npm run develop
 
 #Docker
 APP_NAME=strapi-docker-starter
