@@ -33,6 +33,9 @@ fi
 
 # Write to .env file
 cat > .env <<EOF
+# Set Default Locale to Russian
+STRAPI_PLUGIN_I18N_INIT_LOCALE_CODE=ru
+
 #Strapi Mode Command
 #COMMAND=npm install && npm run build && npm run start
 COMMAND=npm install && npm run develop
@@ -56,8 +59,8 @@ JWT_SECRET=$jwt_secret
 DATABASE_CLIENT=mysql
 DATABASE_HOST=db
 DATABASE_PORT=3306
-DATABASE_NAME=name
-DATABASE_USERNAME=username
+DATABASE_NAME=database
+DATABASE_USERNAME=database
 DATABASE_PASSWORD=$database_password
 DATABASE_SSL=false
 
